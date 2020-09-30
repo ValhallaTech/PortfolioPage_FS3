@@ -90,6 +90,7 @@
     <Content Include="Content\transformations.css" />
     <Content Include="Content\venobox.css" />
     <Content Include="Content\venobox.min.css" />
+    <Content Include="Fonts\boxicons.svg" />
     <Content Include="Images\apple-touch-icon.png" />
     <Content Include="Images\favicon.png" />
     <Content Include="Images\hero-bg.jpg" />
@@ -139,6 +140,10 @@
     <Content Include="Content\bootstrap-grid.css.map" />
     <Content Include="Fonts\icofont.woff" />
     <Content Include="Fonts\icofont.woff2" />
+    <Content Include="Fonts\boxicons.eot" />
+    <Content Include="Fonts\boxicons.ttf" />
+    <Content Include="Fonts\boxicons.woff" />
+    <Content Include="Fonts\boxicons.woff2" />
     <None Include="Scripts\jquery-3.5.1.intellisense.js" />
     <Content Include="Scripts\isotope.pkgd.js" />
     <Content Include="Scripts\isotope.pkgd.min.js" />
