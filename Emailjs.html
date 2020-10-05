@@ -5,6 +5,7 @@
     <link href="/Content/Emailjs.css" rel="stylesheet">
 </head>
 <body>
+    <!--Contact form with input fields-->
     <form id="frmContact">
         <div class="field">
             <label for="subject">subject</label>
@@ -22,17 +23,18 @@
             <label for="email">email</label>
             <input class="form-control" type="email" name="email" id="email">
         </div>
-        <br/>
+        <br />
         <input type="submit" id="sndButton" value="Send Email">
-    </form>
+</form>
 
-    <script type="text/javascript"
-        src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js">
+<!--Load Emailjs javascript-->
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+<script type="text/javascript">
+    (function () {
+        emailjs.init("user_N2O0noAQ4hqItMkOxHnQH");
+    })();
+</script>
+<script src="Scripts/Emailjs.min.js"></script>
 
-    </script>
-
-    <script type="text/javascript">
-        emailjs.init('user_N2O0noAQ4hqItMkOxHnQH')
-    </script>
 </body>
 </html>
