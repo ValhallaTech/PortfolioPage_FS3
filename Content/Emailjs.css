@@ -1,25 +1,32 @@
-.modal-body .form {
+.form {
   margin-bottom: 10px;
 }
 
-.modal-body .field label {
+.field label {
   display: block;
-  font-size: 12px;
+  font-size: 14px;
   color: #777;
 }
 
-.modal-body .field input {
+.field input {
   display: block;
   min-width: 250px;
   line-height: 1.5;
   font-size: 14px;
 }
 
-.modal-body input[type="submit"] {
+input[type="submit"] {
   display: block;
   padding: 6px 30px;
   font-size: 14px;
   background-color: #4460AA;
-  color: #fff;
-  border: none
+  color: #ffffff;
+  border: 2px solid black;
+}
+
+.form-control {
+  display: block;
+  min-width: 250px;
+  line-height: 1.5;
+  font-size: 14px;
 }

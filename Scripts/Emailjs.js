@@ -1,6 +1,6 @@
-const btn = document.getElementById('button');
+const btn = document.getElementById('sndButton');
 
-document.getElementById('form')
+document.getElementById('frmContact')
  .addEventListener('submit', function(event) {
    event.preventDefault();
 
@@ -17,4 +17,4 @@ document.getElementById('form')
       btn.value = 'Send Email';
       alert(JSON.stringify(err));
     });
-});
+ });

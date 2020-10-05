@@ -22,5 +22,11 @@
     "inputFiles": [
       "Scripts/aos.js"
     ]
+  },
+  {
+    "outputFileName": "Scripts/Emailjs.min.js",
+    "inputFiles": [
+      "Scripts/Emailjs.js"
+    ]
   }
 ]

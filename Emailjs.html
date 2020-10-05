@@ -1,46 +1,38 @@
-<link href="/Content/Emailjs.css" rel="stylesheet">
-
-<!-- Modal Header -->
-<div class="modal-header">
-    <h4 class="modal-title">Contact Me</h4>
-    <button type="button" class="close" data-dismiss="modal">&times;</button>
-</div>
-
-<!-- Modal body -->
-<div class="modal-body">
-    <form id="form">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Contact Form</title>
+    <link href="/Content/Emailjs.css" rel="stylesheet">
+</head>
+<body>
+    <form id="frmContact">
         <div class="field">
             <label for="subject">subject</label>
-            <input type="text" name="subject" id="subject">
+            <input class="form-control" type="text" name="subject" id="subject">
         </div>
         <div class="field">
             <label for="name">name</label>
-            <input type="text" name="name" id="name">
+            <input class="form-control" type="text" name="name" id="name">
         </div>
         <div class="field">
             <label for="message">message</label>
-            <input type="text" name="message" id="message">
+            <textarea class="form-control" name="message" placeholder="Type message here..." rows="5"></textarea>
         </div>
         <div class="field">
             <label for="email">email</label>
-            <input type="text" name="email" id="email">
+            <input class="form-control" type="email" name="email" id="email">
         </div>
-        <div class="field">
-            <label for="reply_to">reply_to</label>
-            <input type="text" name="reply_to" id="reply_to">
-        </div>
-
-        <input type="submit" id="button" value="Send Email">
+        <br/>
+        <input type="submit" id="sndButton" value="Send Email">
     </form>
-</div>
-
-<!-- Modal footer -->
-<div class="modal-footer">
-    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
 
     <script type="text/javascript"
-            src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+        src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js">
+
+    </script>
 
     <script type="text/javascript">
         emailjs.init('user_N2O0noAQ4hqItMkOxHnQH')
     </script>
+</body>
+</html>

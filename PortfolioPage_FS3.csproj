@@ -129,6 +129,9 @@
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\counterup.min.js" />
     <Content Include="Scripts\Emailjs.js" />
+    <Content Include="Scripts\Emailjs.min.js">
+      <DependentUpon>Emailjs.js</DependentUpon>
+    </Content>
     <Content Include="Scripts\esm\popper-utils.js" />
     <Content Include="Scripts\esm\popper-utils.min.js" />
     <Content Include="Scripts\esm\popper.js" />
