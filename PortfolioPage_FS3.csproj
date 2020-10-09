@@ -113,6 +113,9 @@
     <Content Include="Images\portfolio\portfolio-8.jpg" />
     <Content Include="Images\portfolio\portfolio-9.jpg" />
     <Content Include="Images\profile-img.jpg" />
+    <Content Include="Images\testimonials\AbeLincoln.jpg" />
+    <Content Include="Images\testimonials\Gandhi.jpg" />
+    <Content Include="Images\testimonials\MichaelJackson.jpg" />
     <Content Include="Images\testimonials\testimonials-1.jpg" />
     <Content Include="Images\testimonials\testimonials-2.jpg" />
     <Content Include="Images\testimonials\testimonials-3.jpg" />
