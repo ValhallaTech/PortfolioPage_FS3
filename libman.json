@@ -1,0 +1,55 @@
+{
+  "version": "1.0",
+  "defaultProvider": "jsdelivr",
+  "libraries": [
+    {
+      "library": "bootstrap@4.5.3",
+      "destination": "lib/bootstrap/"
+    },
+    {
+      "provider": "cdnjs",
+      "library": "jquery@3.5.1",
+      "destination": "lib/jquery/"
+    },
+    {
+      "provider": "cdnjs",
+      "library": "aos@2.3.4",
+      "destination": "lib/aos/"
+    },
+    {
+      "provider": "cdnjs",
+      "library": "OwlCarousel2@2.3.4",
+      "destination": "lib/OwlCarousel2/"
+    },
+    {
+      "provider": "cdnjs",
+      "library": "typed.js@2.0.11",
+      "destination": "lib/typed.js/"
+    },
+    {
+      "provider": "cdnjs",
+      "library": "validate-js@2.0.1",
+      "destination": "lib/validate-js/"
+    },
+    {
+      "provider": "cdnjs",
+      "library": "jquery.isotope@3.0.6",
+      "destination": "lib/jquery.isotope/"
+    },
+    {
+      "provider": "cdnjs",
+      "library": "venobox@1.9.1",
+      "destination": "lib/venobox/"
+    },
+    {
+      "provider": "cdnjs",
+      "library": "jquery-easing@1.4.1",
+      "destination": "lib/jquery-easing/"
+    },
+    {
+      "provider": "cdnjs",
+      "library": "waypoints@4.0.1",
+      "destination": "lib/waypoints/"
+    }
+  ]
+}

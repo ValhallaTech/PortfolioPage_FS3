@@ -28,5 +28,17 @@
     "inputFiles": [
       "Scripts/Emailjs.js"
     ]
+  },
+  {
+    "outputFileName": "lib/aos/aos.min.css",
+    "inputFiles": [
+      "lib/aos/aos.css"
+    ]
+  },
+  {
+    "outputFileName": "lib/aos/aos.min.js",
+    "inputFiles": [
+      "lib/aos/aos.js"
+    ]
   }
 ]
