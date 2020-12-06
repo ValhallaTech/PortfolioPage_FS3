@@ -678,9 +678,9 @@
 
 <!--Load Emailsjs.html-->
 <script>
-    $('.btn-primary').on('click',function(){
-        $('.modal-body').load('/Emailjs.html',function(){
-            $("#EmailjsModal").modal({ show: true });
+    document.querySelector('.btn-primary').addEventListener('click',function(){
+        document.querySelector('.modal-body').load('/Emailjs.html',function(){
+            document.querySelector("#EmailjsModal").modal({ show: true });
         });
     });
 </script>
