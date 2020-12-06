@@ -40,5 +40,11 @@
     "inputFiles": [
       "lib/aos/aos.js"
     ]
+  },
+  {
+    "outputFileName": "Content/Emailjs.min.css",
+    "inputFiles": [
+      "Content/Emailjs.css"
+    ]
   }
 ]

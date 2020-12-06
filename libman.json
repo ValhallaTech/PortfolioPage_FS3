@@ -50,6 +50,10 @@
       "provider": "cdnjs",
       "library": "waypoints@4.0.1",
       "destination": "lib/waypoints/"
+    },
+    {
+      "library": "email-js@2.0.2",
+      "destination": "lib/email-js/"
     }
   ]
 }

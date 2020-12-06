@@ -80,6 +80,9 @@
     <Content Include="Content\boxicons.css" />
     <Content Include="Content\boxicons.min.css" />
     <Content Include="Content\Emailjs.css" />
+    <Content Include="Content\Emailjs.min.css">
+      <DependentUpon>Emailjs.css</DependentUpon>
+    </Content>
     <Content Include="Content\icofont.min.css" />
     <Content Include="Content\owl.carousel.css" />
     <Content Include="Content\owl.carousel.min.css" />
@@ -257,6 +260,13 @@
     <Content Include="lib\bootstrap\js\src\util.js" />
     <Content Include="lib\bootstrap\js\src\util.min.js">
       <DependentUpon>util.js</DependentUpon>
+    </Content>
+    <Content Include="lib\email-js\index.js" />
+    <Content Include="lib\email-js\index.min.js">
+      <DependentUpon>index.js</DependentUpon>
+    </Content>
+    <Content Include="lib\email-js\license.txt">
+      <DependentUpon>LICENSE</DependentUpon>
     </Content>
     <Content Include="lib\jquery-easing\jquery.easing.compatibility.js" />
     <Content Include="lib\jquery-easing\jquery.easing.compatibility.min.js">
@@ -527,6 +537,8 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="lib\email-js\package.json" />
+    <Content Include="lib\email-js\readme.md" />
     <None Include="packages.config" />
     <Content Include="Scripts\umd\popper.min.js.map" />
     <Content Include="Scripts\umd\popper.js.map" />
@@ -546,6 +558,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <TypeScriptCompile Include="lib\email-js\index.d.ts" />
     <TypeScriptCompile Include="Scripts\index.d.ts" />
   </ItemGroup>
   <ItemGroup>

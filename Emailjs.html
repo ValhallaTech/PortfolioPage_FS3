@@ -1,9 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <title>Contact Form</title>
-    <link href="/Content/Emailjs.css" rel="stylesheet">
+    <link href="Content/Emailjs.min.css" rel="stylesheet" />
 </head>
+
 <body>
     <!--Contact form with input fields-->
     <form id="frmContact">
@@ -24,7 +27,7 @@
             <input class="form-control" type="email" name="email" id="email">
         </div>
         <br />
-        <input type="submit" id="sndButton" value="Send Email">
+        <input type="submit" id="btnSend" value="Send Email">
 </form>
 
 <!--Load Emailjs javascript-->
@@ -34,7 +37,7 @@
         window.emailjs.init("user_N2O0noAQ4hqItMkOxHnQH");
     })();
 </script>
-<script src="Scripts/Emailjs.min.js"></script>
+<script type="text/javascript" src="Scripts/Emailjs.min.js"></script>
 
 </body>
 </html>

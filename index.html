@@ -652,33 +652,35 @@
             </div>
         </div>
     </div>
-    <!--Load Emailsjs.html-->
-    <script>
-        document.getElementById( "#btnCallModal" ).addEventListener( "click",
-            function ()
-            {
-                document.getElementsByClassName()( ".modal-body" ).load( "/Emailjs.html",
-                    function ()
-                    {
-                        document.getElementById( "#EmailjsModal" ).modal( { show: true } );
-                    } );
-            } );
 
-        < !--Vendor JS Files-- >
-    <script src="lib/jquery/jquery.min.js"></script>
-    <script src="lib/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script src="lib/jquery-easing/jquery.easing.min.js"></script>
-    <script src="lib/validate-js/validate.min.js"></script>
-    <script src="lib/waypoints/jquery.waypoints.min.js"></script>
-    <script src="/Scripts/counterup.min.js"></script>
-    <script src="lib/jquery.isotope/isotope.pkgd.min.js"></script>
-    <script src="lib/venobox/venobox.min.js"></script>
-    <script src="lib/OwlCarousel2/owl.carousel.min.js"></script>
-    <script src="lib/typed.js/typed.min.js"></script>
-    <script src="lib/aos/aos.min.js"></script>
+    < !--Vendor JS Files -- >
+    <script type="text/javascript" src="lib/jquery/jquery.min.js"></script>
+    <script type="text/javascript" src="lib/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="lib/jquery-easing/jquery.easing.min.js"></script>
+    <script type="text/javascript" src="lib/validate-js/validate.min.js"></script>
+    <script type="text/javascript" src="lib/waypoints/jquery.waypoints.min.js"></script>
+    <script type="text/javascript" src="/Scripts/counterup.min.js"></script>
+    <script type="text/javascript" src="lib/jquery.isotope/isotope.pkgd.min.js"></script>
+    <script type="text/javascript" src="lib/venobox/venobox.min.js"></script>
+    <script type="text/javascript" src="lib/OwlCarousel2/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="lib/typed.js/typed.min.js"></script>
+    <script type="text/javascript" src="lib/aos/aos.min.js"></script>
 
     <!-- Template Main JS File -->
-    <script src="/Scripts/main.min.js"></script>
+<script src="/Scripts/main.min.js"></script>
+
+<!--Load Emailsjs.html into the modal on button click-->
+    <script>
+        $( '.btn-primary' ).on( 'click',
+            function ()
+            {
+                $( '.modal-body' ).load( '/Emailjs.html',
+                    function ()
+                    {
+                        $( "#EmailjsModal" ).modal( { show: true } );
+                    } );
+            } );
+    </script>
 
 </body>
 </html>
