@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <title>Contact Form</title>
+
     <link href="Content/Emailjs.min.css" rel="stylesheet" />
 </head>
 
@@ -28,16 +29,17 @@
         </div>
         <br />
         <input type="submit" id="btnSend" value="Send Email">
-</form>
+    </form>
 
-<!--Load Emailjs javascript-->
-<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
-<script type="text/javascript">
-    (function () {
-        window.emailjs.init("user_N2O0noAQ4hqItMkOxHnQH");
-    })();
-</script>
-<script type="text/javascript" src="Scripts/Emailjs.min.js"></script>
+    <!--Load Emailjs javascript-->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+    <script type="text/javascript" src="Scripts/Emailjs.min.js"></script>
+    <script type="text/javascript">
+        ( function ()
+        {
+            emailjs.init( "user_N2O0noAQ4hqItMkOxHnQH" );
+        } )();
+    </script>
 
 </body>
 </html>
