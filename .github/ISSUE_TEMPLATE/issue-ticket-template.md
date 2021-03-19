@@ -1,7 +1,7 @@
 ---
 name: issue-ticket-template
-about: General feature request and bug tracker template
-title: [LABEL]XXX
+about: General issue template
+title: ''
 labels: ''
 assignees: ''
 
