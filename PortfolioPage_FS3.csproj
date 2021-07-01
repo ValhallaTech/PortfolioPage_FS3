@@ -66,6 +66,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include=".pnp.js" />
     <Content Include="Content\animations.css" />
     <Content Include="Content\aos.css" />
     <Content Include="Content\aos.min.css">
@@ -375,6 +376,7 @@
     <Content Include="Fonts\boxicons.ttf" />
     <Content Include="Fonts\boxicons.woff" />
     <Content Include="Fonts\boxicons.woff2" />
+    <Content Include=".yarnrc.yml" />
     <None Include="bundleconfig.json" />
     <Content Include="libman.json" />
     <Content Include="lib\bootstrap\dist\css\bootstrap-grid.css.map">
@@ -532,6 +534,7 @@
     <Content Include="Scripts\umd\popper.js" />
     <Content Include="Scripts\umd\popper.min.js" />
     <Content Include="Web.config" />
+    <Content Include="yarn.lock" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -539,6 +542,7 @@
   <ItemGroup>
     <Content Include="lib\email-js\package.json" />
     <Content Include="lib\email-js\readme.md" />
+    <Content Include="package.json" />
     <None Include="packages.config" />
     <Content Include="Scripts\umd\popper.min.js.map" />
     <Content Include="Scripts\umd\popper.js.map" />
