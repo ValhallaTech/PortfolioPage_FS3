@@ -1,4 +1,5 @@
 ﻿<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.Default.props" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.Default.props')" />
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
@@ -44,8 +45,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=3.6.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.3.6.0\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Web.DynamicData" />
@@ -133,134 +134,6 @@
     </Content>
     <Content Include="lib\aos\aos.min.js">
       <DependentUpon>aos.js</DependentUpon>
-    </Content>
-    <Content Include="lib\bootstrap\dist\css\bootstrap-grid.css" />
-    <Content Include="lib\bootstrap\dist\css\bootstrap-grid.min.css">
-      <DependentUpon>bootstrap-grid.css</DependentUpon>
-    </Content>
-    <Content Include="lib\bootstrap\dist\css\bootstrap-reboot.css" />
-    <Content Include="lib\bootstrap\dist\css\bootstrap-reboot.min.css">
-      <DependentUpon>bootstrap-reboot.css</DependentUpon>
-    </Content>
-    <Content Include="lib\bootstrap\dist\css\bootstrap.css" />
-    <Content Include="lib\bootstrap\dist\css\bootstrap.min.css">
-      <DependentUpon>bootstrap.css</DependentUpon>
-    </Content>
-    <Content Include="lib\bootstrap\dist\js\bootstrap.bundle.js" />
-    <Content Include="lib\bootstrap\dist\js\bootstrap.bundle.min.js">
-      <DependentUpon>bootstrap.bundle.js</DependentUpon>
-    </Content>
-    <Content Include="lib\bootstrap\dist\js\bootstrap.js" />
-    <Content Include="lib\bootstrap\dist\js\bootstrap.min.js">
-      <DependentUpon>bootstrap.js</DependentUpon>
-    </Content>
-    <Content Include="lib\bootstrap\js\dist\alert.js" />
-    <Content Include="lib\bootstrap\js\dist\alert.min.js">
-      <DependentUpon>alert.js</DependentUpon>
-    </Content>
-    <Content Include="lib\bootstrap\js\dist\button.js" />
-    <Content Include="lib\bootstrap\js\dist\button.min.js">
-      <DependentUpon>button.js</DependentUpon>
-    </Content>
-    <Content Include="lib\bootstrap\js\dist\carousel.js" />
-    <Content Include="lib\bootstrap\js\dist\carousel.min.js">
-      <DependentUpon>carousel.js</DependentUpon>
-    </Content>
-    <Content Include="lib\bootstrap\js\dist\collapse.js" />
-    <Content Include="lib\bootstrap\js\dist\collapse.min.js">
-      <DependentUpon>collapse.js</DependentUpon>
-    </Content>
-    <Content Include="lib\bootstrap\js\dist\dropdown.js" />
-    <Content Include="lib\bootstrap\js\dist\dropdown.min.js">
-      <DependentUpon>dropdown.js</DependentUpon>
-    </Content>
-    <Content Include="lib\bootstrap\js\dist\index.js" />
-    <Content Include="lib\bootstrap\js\dist\index.min.js">
-      <DependentUpon>index.js</DependentUpon>
-    </Content>
-    <Content Include="lib\bootstrap\js\dist\modal.js" />
-    <Content Include="lib\bootstrap\js\dist\modal.min.js">
-      <DependentUpon>modal.js</DependentUpon>
-    </Content>
-    <Content Include="lib\bootstrap\js\dist\popover.js" />
-    <Content Include="lib\bootstrap\js\dist\popover.min.js">
-      <DependentUpon>popover.js</DependentUpon>
-    </Content>
-    <Content Include="lib\bootstrap\js\dist\scrollspy.js" />
-    <Content Include="lib\bootstrap\js\dist\scrollspy.min.js">
-      <DependentUpon>scrollspy.js</DependentUpon>
-    </Content>
-    <Content Include="lib\bootstrap\js\dist\tab.js" />
-    <Content Include="lib\bootstrap\js\dist\tab.min.js">
-      <DependentUpon>tab.js</DependentUpon>
-    </Content>
-    <Content Include="lib\bootstrap\js\dist\toast.js" />
-    <Content Include="lib\bootstrap\js\dist\toast.min.js">
-      <DependentUpon>toast.js</DependentUpon>
-    </Content>
-    <Content Include="lib\bootstrap\js\dist\tooltip.js" />
-    <Content Include="lib\bootstrap\js\dist\tooltip.min.js">
-      <DependentUpon>tooltip.js</DependentUpon>
-    </Content>
-    <Content Include="lib\bootstrap\js\dist\util.js" />
-    <Content Include="lib\bootstrap\js\dist\util.min.js">
-      <DependentUpon>util.js</DependentUpon>
-    </Content>
-    <Content Include="lib\bootstrap\js\src\alert.js" />
-    <Content Include="lib\bootstrap\js\src\alert.min.js">
-      <DependentUpon>alert.js</DependentUpon>
-    </Content>
-    <Content Include="lib\bootstrap\js\src\button.js" />
-    <Content Include="lib\bootstrap\js\src\button.min.js">
-      <DependentUpon>button.js</DependentUpon>
-    </Content>
-    <Content Include="lib\bootstrap\js\src\carousel.js" />
-    <Content Include="lib\bootstrap\js\src\carousel.min.js">
-      <DependentUpon>carousel.js</DependentUpon>
-    </Content>
-    <Content Include="lib\bootstrap\js\src\collapse.js" />
-    <Content Include="lib\bootstrap\js\src\collapse.min.js">
-      <DependentUpon>collapse.js</DependentUpon>
-    </Content>
-    <Content Include="lib\bootstrap\js\src\dropdown.js" />
-    <Content Include="lib\bootstrap\js\src\dropdown.min.js">
-      <DependentUpon>dropdown.js</DependentUpon>
-    </Content>
-    <Content Include="lib\bootstrap\js\src\index.js" />
-    <Content Include="lib\bootstrap\js\src\index.min.js">
-      <DependentUpon>index.js</DependentUpon>
-    </Content>
-    <Content Include="lib\bootstrap\js\src\modal.js" />
-    <Content Include="lib\bootstrap\js\src\modal.min.js">
-      <DependentUpon>modal.js</DependentUpon>
-    </Content>
-    <Content Include="lib\bootstrap\js\src\popover.js" />
-    <Content Include="lib\bootstrap\js\src\popover.min.js">
-      <DependentUpon>popover.js</DependentUpon>
-    </Content>
-    <Content Include="lib\bootstrap\js\src\scrollspy.js" />
-    <Content Include="lib\bootstrap\js\src\scrollspy.min.js">
-      <DependentUpon>scrollspy.js</DependentUpon>
-    </Content>
-    <Content Include="lib\bootstrap\js\src\tab.js" />
-    <Content Include="lib\bootstrap\js\src\tab.min.js">
-      <DependentUpon>tab.js</DependentUpon>
-    </Content>
-    <Content Include="lib\bootstrap\js\src\toast.js" />
-    <Content Include="lib\bootstrap\js\src\toast.min.js">
-      <DependentUpon>toast.js</DependentUpon>
-    </Content>
-    <Content Include="lib\bootstrap\js\src\tools\sanitizer.js" />
-    <Content Include="lib\bootstrap\js\src\tools\sanitizer.min.js">
-      <DependentUpon>sanitizer.js</DependentUpon>
-    </Content>
-    <Content Include="lib\bootstrap\js\src\tooltip.js" />
-    <Content Include="lib\bootstrap\js\src\tooltip.min.js">
-      <DependentUpon>tooltip.js</DependentUpon>
-    </Content>
-    <Content Include="lib\bootstrap\js\src\util.js" />
-    <Content Include="lib\bootstrap\js\src\util.min.js">
-      <DependentUpon>util.js</DependentUpon>
     </Content>
     <Content Include="lib\email-js\index.js" />
     <Content Include="lib\email-js\index.min.js">
@@ -350,7 +223,34 @@
     <Content Include="lib\waypoints\zepto.waypoints.min.js">
       <DependentUpon>zepto.waypoints.js</DependentUpon>
     </Content>
-    <Content Include="node-js.js" />
+    <Content Include="node_modules\bootstrap\dist\css\bootstrap-grid.css" />
+    <Content Include="node_modules\bootstrap\dist\js\bootstrap.bundle.js" />
+    <Content Include="node_modules\bootstrap\js\dist\alert.js" />
+    <Content Include="node_modules\bootstrap\js\dist\dom\data.js" />
+    <Content Include="node_modules\bootstrap\js\dist\dom\event-handler.js" />
+    <Content Include="node_modules\bootstrap\js\dist\dom\manipulator.js" />
+    <Content Include="node_modules\bootstrap\js\dist\dom\selector-engine.js" />
+    <Content Include="node_modules\bootstrap\js\src\alert.js" />
+    <Content Include="node_modules\bootstrap\js\src\base-component.js" />
+    <Content Include="node_modules\bootstrap\js\src\button.js" />
+    <Content Include="node_modules\bootstrap\js\src\carousel.js" />
+    <Content Include="node_modules\bootstrap\js\src\collapse.js" />
+    <Content Include="node_modules\bootstrap\js\src\dom\data.js" />
+    <Content Include="node_modules\bootstrap\js\src\dom\event-handler.js" />
+    <Content Include="node_modules\bootstrap\js\src\dom\manipulator.js" />
+    <Content Include="node_modules\bootstrap\js\src\dom\selector-engine.js" />
+    <Content Include="node_modules\bootstrap\js\src\dropdown.js" />
+    <Content Include="node_modules\bootstrap\js\src\modal.js" />
+    <Content Include="node_modules\bootstrap\js\src\offcanvas.js" />
+    <Content Include="node_modules\bootstrap\js\src\popover.js" />
+    <Content Include="node_modules\bootstrap\js\src\scrollspy.js" />
+    <Content Include="node_modules\bootstrap\js\src\tab.js" />
+    <Content Include="node_modules\bootstrap\js\src\toast.js" />
+    <Content Include="node_modules\bootstrap\js\src\tooltip.js" />
+    <Content Include="node_modules\bootstrap\js\src\util\backdrop.js" />
+    <Content Include="node_modules\bootstrap\js\src\util\index.js" />
+    <Content Include="node_modules\bootstrap\js\src\util\sanitizer.js" />
+    <Content Include="node_modules\bootstrap\js\src\util\scrollbar.js" />
     <Content Include="Scripts\counterup.min.js" />
     <Content Include="Scripts\Emailjs.js" />
     <Content Include="Scripts\Emailjs.min.js">
@@ -380,73 +280,6 @@
     <Content Include=".yarnrc.yml" />
     <None Include="bundleconfig.json" />
     <Content Include="libman.json" />
-    <Content Include="lib\bootstrap\dist\css\bootstrap-grid.css.map">
-      <DependentUpon>bootstrap-grid.css</DependentUpon>
-    </Content>
-    <Content Include="lib\bootstrap\dist\css\bootstrap-grid.min.css.map">
-      <DependentUpon>bootstrap-grid.min.css</DependentUpon>
-    </Content>
-    <Content Include="lib\bootstrap\dist\css\bootstrap.css.map">
-      <DependentUpon>bootstrap.css</DependentUpon>
-    </Content>
-    <Content Include="lib\bootstrap\dist\css\bootstrap.min.css.map">
-      <DependentUpon>bootstrap.min.css</DependentUpon>
-    </Content>
-    <Content Include="lib\bootstrap\dist\css\bootstrap-reboot.css.map">
-      <DependentUpon>bootstrap-reboot.css</DependentUpon>
-    </Content>
-    <Content Include="lib\bootstrap\dist\css\bootstrap-reboot.min.css.map">
-      <DependentUpon>bootstrap-reboot.min.css</DependentUpon>
-    </Content>
-    <Content Include="lib\bootstrap\dist\js\bootstrap.bundle.js.map">
-      <DependentUpon>bootstrap.bundle.js</DependentUpon>
-    </Content>
-    <Content Include="lib\bootstrap\dist\js\bootstrap.bundle.min.js.map">
-      <DependentUpon>bootstrap.bundle.min.js</DependentUpon>
-    </Content>
-    <Content Include="lib\bootstrap\dist\js\bootstrap.js.map">
-      <DependentUpon>bootstrap.js</DependentUpon>
-    </Content>
-    <Content Include="lib\bootstrap\dist\js\bootstrap.min.js.map">
-      <DependentUpon>bootstrap.min.js</DependentUpon>
-    </Content>
-    <Content Include="lib\bootstrap\js\dist\alert.js.map">
-      <DependentUpon>alert.js</DependentUpon>
-    </Content>
-    <Content Include="lib\bootstrap\js\dist\button.js.map">
-      <DependentUpon>button.js</DependentUpon>
-    </Content>
-    <Content Include="lib\bootstrap\js\dist\carousel.js.map">
-      <DependentUpon>carousel.js</DependentUpon>
-    </Content>
-    <Content Include="lib\bootstrap\js\dist\collapse.js.map">
-      <DependentUpon>collapse.js</DependentUpon>
-    </Content>
-    <Content Include="lib\bootstrap\js\dist\dropdown.js.map">
-      <DependentUpon>dropdown.js</DependentUpon>
-    </Content>
-    <Content Include="lib\bootstrap\js\dist\modal.js.map">
-      <DependentUpon>modal.js</DependentUpon>
-    </Content>
-    <Content Include="lib\bootstrap\js\dist\popover.js.map">
-      <DependentUpon>popover.js</DependentUpon>
-    </Content>
-    <Content Include="lib\bootstrap\js\dist\scrollspy.js.map">
-      <DependentUpon>scrollspy.js</DependentUpon>
-    </Content>
-    <Content Include="lib\bootstrap\js\dist\tab.js.map">
-      <DependentUpon>tab.js</DependentUpon>
-    </Content>
-    <Content Include="lib\bootstrap\js\dist\toast.js.map">
-      <DependentUpon>toast.js</DependentUpon>
-    </Content>
-    <Content Include="lib\bootstrap\js\dist\tooltip.js.map">
-      <DependentUpon>tooltip.js</DependentUpon>
-    </Content>
-    <Content Include="lib\bootstrap\js\dist\util.js.map">
-      <DependentUpon>util.js</DependentUpon>
-    </Content>
-    <None Include="lib\bootstrap\LICENSE" />
     <Content Include="lib\jquery\jquery.min.map">
       <DependentUpon>jquery.min.js</DependentUpon>
     </Content>
@@ -544,6 +377,112 @@
     <Content Include="lib\email-js\package.json" />
     <Content Include="lib\email-js\readme.md" />
     <Content Include="package.json" />
+    <Content Include="package-lock.json" />
+    <Content Include="node_modules\bootstrap\dist\css\bootstrap-grid.css.map">
+      <DependentUpon>bootstrap-grid.css</DependentUpon>
+    </Content>
+    <None Include="node_modules\bootstrap\dist\js\bootstrap.bundle.js.map">
+      <DependentUpon>bootstrap.bundle.js</DependentUpon>
+    </None>
+    <None Include="node_modules\bootstrap\js\dist\alert.js.map">
+      <DependentUpon>alert.js</DependentUpon>
+    </None>
+    <Content Include="node_modules\bootstrap\js\dist\dom\data.js.map">
+      <DependentUpon>data.js</DependentUpon>
+    </Content>
+    <Content Include="node_modules\bootstrap\js\dist\dom\event-handler.js.map">
+      <DependentUpon>event-handler.js</DependentUpon>
+    </Content>
+    <Content Include="node_modules\bootstrap\js\dist\dom\manipulator.js.map">
+      <DependentUpon>manipulator.js</DependentUpon>
+    </Content>
+    <Content Include="node_modules\bootstrap\js\dist\dom\selector-engine.js.map">
+      <DependentUpon>selector-engine.js</DependentUpon>
+    </Content>
+    <None Include="node_modules\bootstrap\LICENSE">
+      <DependentUpon>LICENSE</DependentUpon>
+    </None>
+    <Content Include="node_modules\bootstrap\scss\bootstrap-grid.scss" />
+    <Content Include="node_modules\bootstrap\scss\bootstrap-reboot.scss" />
+    <Content Include="node_modules\bootstrap\scss\bootstrap-utilities.scss" />
+    <Content Include="node_modules\bootstrap\scss\bootstrap.scss" />
+    <Content Include="node_modules\bootstrap\scss\forms\_floating-labels.scss" />
+    <Content Include="node_modules\bootstrap\scss\forms\_form-check.scss" />
+    <Content Include="node_modules\bootstrap\scss\forms\_form-control.scss" />
+    <Content Include="node_modules\bootstrap\scss\forms\_form-range.scss" />
+    <Content Include="node_modules\bootstrap\scss\forms\_form-select.scss" />
+    <Content Include="node_modules\bootstrap\scss\forms\_form-text.scss" />
+    <Content Include="node_modules\bootstrap\scss\forms\_input-group.scss" />
+    <Content Include="node_modules\bootstrap\scss\forms\_labels.scss" />
+    <Content Include="node_modules\bootstrap\scss\forms\_validation.scss" />
+    <Content Include="node_modules\bootstrap\scss\helpers\_clearfix.scss" />
+    <Content Include="node_modules\bootstrap\scss\helpers\_colored-links.scss" />
+    <Content Include="node_modules\bootstrap\scss\helpers\_position.scss" />
+    <Content Include="node_modules\bootstrap\scss\helpers\_ratio.scss" />
+    <Content Include="node_modules\bootstrap\scss\helpers\_stretched-link.scss" />
+    <Content Include="node_modules\bootstrap\scss\helpers\_text-truncation.scss" />
+    <Content Include="node_modules\bootstrap\scss\helpers\_visually-hidden.scss" />
+    <Content Include="node_modules\bootstrap\scss\mixins\_alert.scss" />
+    <Content Include="node_modules\bootstrap\scss\mixins\_border-radius.scss" />
+    <Content Include="node_modules\bootstrap\scss\mixins\_box-shadow.scss" />
+    <Content Include="node_modules\bootstrap\scss\mixins\_breakpoints.scss" />
+    <Content Include="node_modules\bootstrap\scss\mixins\_buttons.scss" />
+    <Content Include="node_modules\bootstrap\scss\mixins\_caret.scss" />
+    <Content Include="node_modules\bootstrap\scss\mixins\_clearfix.scss" />
+    <Content Include="node_modules\bootstrap\scss\mixins\_color-scheme.scss" />
+    <Content Include="node_modules\bootstrap\scss\mixins\_container.scss" />
+    <Content Include="node_modules\bootstrap\scss\mixins\_deprecate.scss" />
+    <Content Include="node_modules\bootstrap\scss\mixins\_forms.scss" />
+    <Content Include="node_modules\bootstrap\scss\mixins\_gradients.scss" />
+    <Content Include="node_modules\bootstrap\scss\mixins\_grid.scss" />
+    <Content Include="node_modules\bootstrap\scss\mixins\_image.scss" />
+    <Content Include="node_modules\bootstrap\scss\mixins\_list-group.scss" />
+    <Content Include="node_modules\bootstrap\scss\mixins\_lists.scss" />
+    <Content Include="node_modules\bootstrap\scss\mixins\_pagination.scss" />
+    <Content Include="node_modules\bootstrap\scss\mixins\_reset-text.scss" />
+    <Content Include="node_modules\bootstrap\scss\mixins\_resize.scss" />
+    <Content Include="node_modules\bootstrap\scss\mixins\_table-variants.scss" />
+    <Content Include="node_modules\bootstrap\scss\mixins\_text-truncate.scss" />
+    <Content Include="node_modules\bootstrap\scss\mixins\_transition.scss" />
+    <Content Include="node_modules\bootstrap\scss\mixins\_utilities.scss" />
+    <Content Include="node_modules\bootstrap\scss\mixins\_visually-hidden.scss" />
+    <Content Include="node_modules\bootstrap\scss\utilities\_api.scss" />
+    <Content Include="node_modules\bootstrap\scss\vendor\_rfs.scss" />
+    <Content Include="node_modules\bootstrap\scss\_accordion.scss" />
+    <Content Include="node_modules\bootstrap\scss\_alert.scss" />
+    <Content Include="node_modules\bootstrap\scss\_badge.scss" />
+    <Content Include="node_modules\bootstrap\scss\_breadcrumb.scss" />
+    <Content Include="node_modules\bootstrap\scss\_button-group.scss" />
+    <Content Include="node_modules\bootstrap\scss\_buttons.scss" />
+    <Content Include="node_modules\bootstrap\scss\_card.scss" />
+    <Content Include="node_modules\bootstrap\scss\_carousel.scss" />
+    <Content Include="node_modules\bootstrap\scss\_close.scss" />
+    <Content Include="node_modules\bootstrap\scss\_containers.scss" />
+    <Content Include="node_modules\bootstrap\scss\_dropdown.scss" />
+    <Content Include="node_modules\bootstrap\scss\_forms.scss" />
+    <Content Include="node_modules\bootstrap\scss\_functions.scss" />
+    <Content Include="node_modules\bootstrap\scss\_grid.scss" />
+    <Content Include="node_modules\bootstrap\scss\_helpers.scss" />
+    <Content Include="node_modules\bootstrap\scss\_images.scss" />
+    <Content Include="node_modules\bootstrap\scss\_list-group.scss" />
+    <Content Include="node_modules\bootstrap\scss\_mixins.scss" />
+    <Content Include="node_modules\bootstrap\scss\_modal.scss" />
+    <Content Include="node_modules\bootstrap\scss\_nav.scss" />
+    <Content Include="node_modules\bootstrap\scss\_navbar.scss" />
+    <Content Include="node_modules\bootstrap\scss\_offcanvas.scss" />
+    <Content Include="node_modules\bootstrap\scss\_pagination.scss" />
+    <Content Include="node_modules\bootstrap\scss\_popover.scss" />
+    <Content Include="node_modules\bootstrap\scss\_progress.scss" />
+    <Content Include="node_modules\bootstrap\scss\_reboot.scss" />
+    <Content Include="node_modules\bootstrap\scss\_root.scss" />
+    <Content Include="node_modules\bootstrap\scss\_spinners.scss" />
+    <Content Include="node_modules\bootstrap\scss\_tables.scss" />
+    <Content Include="node_modules\bootstrap\scss\_toasts.scss" />
+    <Content Include="node_modules\bootstrap\scss\_tooltip.scss" />
+    <Content Include="node_modules\bootstrap\scss\_transitions.scss" />
+    <Content Include="node_modules\bootstrap\scss\_type.scss" />
+    <Content Include="node_modules\bootstrap\scss\_utilities.scss" />
+    <Content Include="node_modules\bootstrap\scss\_variables.scss" />
     <None Include="packages.config" />
     <Content Include="Scripts\umd\popper.min.js.map" />
     <Content Include="Scripts\umd\popper.js.map" />
@@ -602,6 +541,7 @@
       <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
     </PropertyGroup>
     <Error Condition="!Exists('packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.3.6.0\build\net472\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.3.6.0\build\net472\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.targets'))" />
+    <Error Condition="!Exists('packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', 'packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
   </Target>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
