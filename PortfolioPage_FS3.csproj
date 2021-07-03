@@ -330,6 +330,157 @@
     <Content Include="node_modules\emailjs-com\es\models\EmailJSResponseStatus.js" />
     <Content Include="node_modules\emailjs-com\es\store\store.js" />
     <Content Include="node_modules\emailjs-com\es\utils\validateParams.js" />
+    <Content Include="node_modules\jquery\AUTHORS.txt" />
+    <Content Include="node_modules\jquery\dist\jquery.js" />
+    <Content Include="node_modules\jquery\dist\jquery.min.js">
+      <DependentUpon>jquery.js</DependentUpon>
+    </Content>
+    <Content Include="node_modules\jquery\dist\jquery.slim.js">
+      <DependentUpon>jquery.js</DependentUpon>
+    </Content>
+    <Content Include="node_modules\jquery\dist\jquery.slim.min.js">
+      <DependentUpon>jquery.slim.js</DependentUpon>
+    </Content>
+    <Content Include="node_modules\jquery\external\sizzle\dist\sizzle.js" />
+    <Content Include="node_modules\jquery\external\sizzle\dist\sizzle.min.js">
+      <DependentUpon>sizzle.js</DependentUpon>
+    </Content>
+    <Content Include="node_modules\jquery\external\sizzle\LICENSE.txt" />
+    <Content Include="node_modules\jquery\LICENSE.txt" />
+    <Content Include="node_modules\jquery\src\ajax.js" />
+    <Content Include="node_modules\jquery\src\ajax\jsonp.js" />
+    <Content Include="node_modules\jquery\src\ajax\load.js" />
+    <Content Include="node_modules\jquery\src\ajax\script.js" />
+    <Content Include="node_modules\jquery\src\ajax\var\location.js" />
+    <Content Include="node_modules\jquery\src\ajax\var\nonce.js" />
+    <Content Include="node_modules\jquery\src\ajax\var\rquery.js" />
+    <Content Include="node_modules\jquery\src\ajax\xhr.js" />
+    <Content Include="node_modules\jquery\src\attributes.js" />
+    <Content Include="node_modules\jquery\src\attributes\attr.js" />
+    <Content Include="node_modules\jquery\src\attributes\classes.js" />
+    <Content Include="node_modules\jquery\src\attributes\prop.js" />
+    <Content Include="node_modules\jquery\src\attributes\support.js" />
+    <Content Include="node_modules\jquery\src\attributes\val.js" />
+    <Content Include="node_modules\jquery\src\callbacks.js" />
+    <Content Include="node_modules\jquery\src\core.js" />
+    <Content Include="node_modules\jquery\src\core\access.js" />
+    <Content Include="node_modules\jquery\src\core\camelCase.js" />
+    <Content Include="node_modules\jquery\src\core\DOMEval.js" />
+    <Content Include="node_modules\jquery\src\core\init.js" />
+    <Content Include="node_modules\jquery\src\core\isAttached.js" />
+    <Content Include="node_modules\jquery\src\core\nodeName.js" />
+    <Content Include="node_modules\jquery\src\core\parseHTML.js" />
+    <Content Include="node_modules\jquery\src\core\parseXML.js" />
+    <Content Include="node_modules\jquery\src\core\ready-no-deferred.js" />
+    <Content Include="node_modules\jquery\src\core\ready.js" />
+    <Content Include="node_modules\jquery\src\core\readyException.js" />
+    <Content Include="node_modules\jquery\src\core\stripAndCollapse.js" />
+    <Content Include="node_modules\jquery\src\core\support.js" />
+    <Content Include="node_modules\jquery\src\core\toType.js" />
+    <Content Include="node_modules\jquery\src\core\var\rsingleTag.js" />
+    <Content Include="node_modules\jquery\src\css.js" />
+    <Content Include="node_modules\jquery\src\css\addGetHookIf.js" />
+    <Content Include="node_modules\jquery\src\css\adjustCSS.js" />
+    <Content Include="node_modules\jquery\src\css\curCSS.js" />
+    <Content Include="node_modules\jquery\src\css\finalPropName.js" />
+    <Content Include="node_modules\jquery\src\css\hiddenVisibleSelectors.js" />
+    <Content Include="node_modules\jquery\src\css\showHide.js" />
+    <Content Include="node_modules\jquery\src\css\support.js" />
+    <Content Include="node_modules\jquery\src\css\var\cssExpand.js" />
+    <Content Include="node_modules\jquery\src\css\var\getStyles.js" />
+    <Content Include="node_modules\jquery\src\css\var\isHiddenWithinTree.js" />
+    <Content Include="node_modules\jquery\src\css\var\rboxStyle.js" />
+    <Content Include="node_modules\jquery\src\css\var\rnumnonpx.js" />
+    <Content Include="node_modules\jquery\src\css\var\swap.js" />
+    <Content Include="node_modules\jquery\src\data.js" />
+    <Content Include="node_modules\jquery\src\data\Data.js" />
+    <Content Include="node_modules\jquery\src\data\var\acceptData.js" />
+    <Content Include="node_modules\jquery\src\data\var\dataPriv.js" />
+    <Content Include="node_modules\jquery\src\data\var\dataUser.js" />
+    <Content Include="node_modules\jquery\src\deferred.js" />
+    <Content Include="node_modules\jquery\src\deferred\exceptionHook.js" />
+    <Content Include="node_modules\jquery\src\deprecated.js" />
+    <Content Include="node_modules\jquery\src\deprecated\ajax-event-alias.js" />
+    <Content Include="node_modules\jquery\src\deprecated\event.js" />
+    <Content Include="node_modules\jquery\src\dimensions.js" />
+    <Content Include="node_modules\jquery\src\effects.js" />
+    <Content Include="node_modules\jquery\src\effects\animatedSelector.js" />
+    <Content Include="node_modules\jquery\src\effects\Tween.js" />
+    <Content Include="node_modules\jquery\src\event.js" />
+    <Content Include="node_modules\jquery\src\event\focusin.js" />
+    <Content Include="node_modules\jquery\src\event\support.js" />
+    <Content Include="node_modules\jquery\src\event\trigger.js" />
+    <Content Include="node_modules\jquery\src\exports\amd.js" />
+    <Content Include="node_modules\jquery\src\exports\global.js" />
+    <Content Include="node_modules\jquery\src\jquery.js" />
+    <Content Include="node_modules\jquery\src\manipulation.js" />
+    <Content Include="node_modules\jquery\src\manipulation\buildFragment.js" />
+    <Content Include="node_modules\jquery\src\manipulation\getAll.js" />
+    <Content Include="node_modules\jquery\src\manipulation\setGlobalEval.js" />
+    <Content Include="node_modules\jquery\src\manipulation\support.js" />
+    <Content Include="node_modules\jquery\src\manipulation\var\rscriptType.js" />
+    <Content Include="node_modules\jquery\src\manipulation\var\rtagName.js" />
+    <Content Include="node_modules\jquery\src\manipulation\wrapMap.js" />
+    <Content Include="node_modules\jquery\src\manipulation\_evalUrl.js" />
+    <Content Include="node_modules\jquery\src\offset.js" />
+    <Content Include="node_modules\jquery\src\queue.js" />
+    <Content Include="node_modules\jquery\src\queue\delay.js" />
+    <Content Include="node_modules\jquery\src\selector-native.js" />
+    <Content Include="node_modules\jquery\src\selector-sizzle.js" />
+    <Content Include="node_modules\jquery\src\selector.js" />
+    <Content Include="node_modules\jquery\src\serialize.js" />
+    <Content Include="node_modules\jquery\src\traversing.js" />
+    <Content Include="node_modules\jquery\src\traversing\findFilter.js" />
+    <Content Include="node_modules\jquery\src\traversing\var\dir.js" />
+    <Content Include="node_modules\jquery\src\traversing\var\rneedsContext.js" />
+    <Content Include="node_modules\jquery\src\traversing\var\siblings.js" />
+    <Content Include="node_modules\jquery\src\var\arr.js" />
+    <Content Include="node_modules\jquery\src\var\class2type.js" />
+    <Content Include="node_modules\jquery\src\var\document.js" />
+    <Content Include="node_modules\jquery\src\var\documentElement.js" />
+    <Content Include="node_modules\jquery\src\var\flat.js" />
+    <Content Include="node_modules\jquery\src\var\fnToString.js" />
+    <Content Include="node_modules\jquery\src\var\getProto.js" />
+    <Content Include="node_modules\jquery\src\var\hasOwn.js" />
+    <Content Include="node_modules\jquery\src\var\indexOf.js" />
+    <Content Include="node_modules\jquery\src\var\isFunction.js" />
+    <Content Include="node_modules\jquery\src\var\isWindow.js" />
+    <Content Include="node_modules\jquery\src\var\ObjectFunctionString.js" />
+    <Content Include="node_modules\jquery\src\var\pnum.js" />
+    <Content Include="node_modules\jquery\src\var\push.js" />
+    <Content Include="node_modules\jquery\src\var\rcheckableType.js" />
+    <Content Include="node_modules\jquery\src\var\rcssNum.js" />
+    <Content Include="node_modules\jquery\src\var\rnothtmlwhite.js" />
+    <Content Include="node_modules\jquery\src\var\slice.js" />
+    <Content Include="node_modules\jquery\src\var\support.js" />
+    <Content Include="node_modules\jquery\src\var\toString.js" />
+    <Content Include="node_modules\jquery\src\wrap.js" />
+    <Content Include="node_modules\typed.js\app.js" />
+    <Content Include="node_modules\typed.js\assets\demos.css" />
+    <Content Include="node_modules\typed.js\assets\demos.js" />
+    <Content Include="node_modules\typed.js\docs\assets\anchor.js" />
+    <Content Include="node_modules\typed.js\docs\assets\bass-addons.css" />
+    <Content Include="node_modules\typed.js\docs\assets\bass.css" />
+    <Content Include="node_modules\typed.js\docs\assets\fonts\LICENSE.txt" />
+    <Content Include="node_modules\typed.js\docs\assets\fonts\source-code-pro.css" />
+    <Content Include="node_modules\typed.js\docs\assets\github.css" />
+    <Content Include="node_modules\typed.js\docs\assets\site.js" />
+    <Content Include="node_modules\typed.js\docs\assets\style.css" />
+    <Content Include="node_modules\typed.js\docs\index.html" />
+    <Content Include="node_modules\typed.js\gulpfile.js" />
+    <Content Include="node_modules\typed.js\index.html" />
+    <Content Include="node_modules\typed.js\lib\typed.js" />
+    <Content Include="node_modules\typed.js\lib\typed.min.js">
+      <DependentUpon>typed.js</DependentUpon>
+    </Content>
+    <Content Include="node_modules\typed.js\LICENSE.txt" />
+    <Content Include="node_modules\typed.js\logo-cropped.png" />
+    <Content Include="node_modules\typed.js\logo.png" />
+    <Content Include="node_modules\typed.js\src\defaults.js" />
+    <Content Include="node_modules\typed.js\src\html-parser.js" />
+    <Content Include="node_modules\typed.js\src\initializer.js" />
+    <Content Include="node_modules\typed.js\src\typed.js" />
+    <Content Include="node_modules\typed.js\webpack.config.js" />
     <Content Include="Scripts\counterup.min.js" />
     <Content Include="Scripts\Emailjs.js" />
     <Content Include="Scripts\Emailjs.min.js">
@@ -448,6 +599,56 @@
     <Content Include="Scripts\umd\popper.min.js" />
     <Content Include="yarn.lock" />
     <Content Include="web.config" />
+    <Content Include="node_modules\jquery\bower.json" />
+    <Content Include="node_modules\jquery\dist\jquery.min.map">
+      <DependentUpon>jquery.min.js</DependentUpon>
+    </Content>
+    <Content Include="node_modules\jquery\dist\jquery.slim.min.map">
+      <DependentUpon>jquery.slim.min.js</DependentUpon>
+    </Content>
+    <Content Include="node_modules\jquery\external\sizzle\dist\sizzle.min.map">
+      <DependentUpon>sizzle.min.js</DependentUpon>
+    </Content>
+    <Content Include="node_modules\jquery\package.json" />
+    <Content Include="node_modules\jquery\README.md" />
+    <Content Include="node_modules\typed.js\.codeclimate.yml" />
+    <Content Include="node_modules\typed.js\.csslintrc" />
+    <Content Include="node_modules\typed.js\.esdoc.json" />
+    <Content Include="node_modules\typed.js\.eslintignore" />
+    <Content Include="node_modules\typed.js\.eslintrc.yml" />
+    <Content Include="node_modules\typed.js\.github\CONTRIBUTING.md" />
+    <Content Include="node_modules\typed.js\.github\ISSUE_TEMPLATE.md" />
+    <Content Include="node_modules\typed.js\.github\PULL_REQUEST_TEMPLATE.md" />
+    <Content Include="node_modules\typed.js\.prettierrc" />
+    <Content Include="node_modules\typed.js\.travis.yml" />
+    <Content Include="node_modules\typed.js\.vscode\launch.json" />
+    <Content Include="node_modules\typed.js\.vscode\settings.json" />
+    <Content Include="node_modules\typed.js\bower.json" />
+    <Content Include="node_modules\typed.js\CODE_OF_CONDUCT.md" />
+    <Content Include="node_modules\typed.js\docs\API.md" />
+    <Content Include="node_modules\typed.js\docs\assets\fonts\EOT\SourceCodePro-Bold.eot" />
+    <Content Include="node_modules\typed.js\docs\assets\fonts\EOT\SourceCodePro-Regular.eot" />
+    <Content Include="node_modules\typed.js\docs\assets\fonts\OTF\SourceCodePro-Bold.otf" />
+    <Content Include="node_modules\typed.js\docs\assets\fonts\OTF\SourceCodePro-Regular.otf" />
+    <Content Include="node_modules\typed.js\docs\assets\fonts\TTF\SourceCodePro-Bold.ttf" />
+    <Content Include="node_modules\typed.js\docs\assets\fonts\TTF\SourceCodePro-Regular.ttf" />
+    <Content Include="node_modules\typed.js\docs\assets\fonts\WOFF2\OTF\SourceCodePro-Bold.otf.woff2">
+      <DependentUpon>SourceCodePro-Bold.otf</DependentUpon>
+    </Content>
+    <Content Include="node_modules\typed.js\docs\assets\fonts\WOFF2\TTF\SourceCodePro-Bold.ttf.woff2">
+      <DependentUpon>SourceCodePro-Bold.ttf</DependentUpon>
+    </Content>
+    <Content Include="node_modules\typed.js\docs\assets\fonts\WOFF\OTF\SourceCodePro-Bold.otf.woff">
+      <DependentUpon>SourceCodePro-Bold.otf</DependentUpon>
+    </Content>
+    <Content Include="node_modules\typed.js\docs\assets\fonts\WOFF\TTF\SourceCodePro-Bold.ttf.woff">
+      <DependentUpon>SourceCodePro-Bold.ttf</DependentUpon>
+    </Content>
+    <None Include="node_modules\typed.js\lib\typed.min.js.map">
+      <DependentUpon>typed.min.js</DependentUpon>
+    </None>
+    <Content Include="node_modules\typed.js\package.json" />
+    <Content Include="node_modules\typed.js\README.md" />
     <None Include="web.Debug.config">
       <DependentUpon>web.config</DependentUpon>
     </None>
@@ -632,12 +833,18 @@
     <TypeScriptCompile Include="node_modules\emailjs-com\es\models\EmailJSResponseStatus.d.ts" />
     <TypeScriptCompile Include="node_modules\emailjs-com\es\store\store.d.ts" />
     <TypeScriptCompile Include="node_modules\emailjs-com\es\utils\validateParams.d.ts" />
+    <TypeScriptCompile Include="node_modules\typed.js\index.d.ts" />
     <TypeScriptCompile Include="Scripts\index.d.ts" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="node_modules\typed.js\docs\assets\fonts\WOFF2\OTF\" />
+    <Folder Include="node_modules\typed.js\docs\assets\fonts\WOFF2\TTF\" />
+    <Folder Include="node_modules\typed.js\docs\assets\fonts\WOFF\OTF\" />
+    <Folder Include="node_modules\typed.js\docs\assets\fonts\WOFF\TTF\" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
