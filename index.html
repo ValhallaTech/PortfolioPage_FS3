@@ -130,7 +130,7 @@
         </div>
     </header><!-- End Header -->
     <!-- ======= Hero Section ======= -->
-    <section class="align-items-center d-flex flex-column justify-content-center""
+    <section class="align-items-center d-flex flex-column justify-content-center"
              id="hero">
         <div class="hero-container"
              data-aos="fade-in">
@@ -831,8 +831,8 @@
                         <!--</form>-->
                         <!-- Button to Open the Modal -->
                         <button class="btn btn-primary"
-                                data-target="#EmailjsModal"
-                                data-toggle="modal"
+                                data-bs-target="#EmailjsModal"
+                                data-bs-toggle="modal"
                                 id="btnCallModal"
                                 type="button">
                             Contact Me
@@ -878,9 +878,9 @@
             <div class="modal-content">
                 <div class="modal-header">
                     <h4 class="modal-title">Contact Me</h4>
-                    <button class="close"
-                            data-dismiss="modal"
-                            type="button">
+                    <button type="button"
+                            class="btn-close"
+                            data-bs-dismiss="modal">
                         &times;
                     </button>
                 </div>
@@ -888,10 +888,9 @@
                     <!--Form from Emailjs.html will load here-->
                 </div>
                 <div class="modal-footer">
-                    <button class="btn btn-danger"
-                            data-dismiss="modal"
-                            type="button">
-                        Close
+                    <button type="button"
+                            class="btn btn-secondary"
+                            data-bs-dismiss="modal">Close
                     </button>
                 </div>
             </div>
@@ -933,13 +932,13 @@
 
     <!--Load Emailsjs.html into the modal on button click-->
     <script>
-        $( '.btn-primary' ).on( 'click',
+        $( '#btnCallModal' ).on( 'click',
             function ()
             {
                 $( '.modal-body' ).load( '/Emailjs.html',
                     function ()
                     {
-                        $( "#EmailjsModal" ).modal( { show: true } );
+                        $( "#EmailjsModal" ).showModal( { show: true } );
                     } );
             } );
     </script>
